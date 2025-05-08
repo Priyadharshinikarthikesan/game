@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess</title>
+</head>
+
+<body>
+    <div class="set">
+        <h1>Guess the Number from 1 to 5</h1><br><br>
+        <label class="label">Guess Number:</label>
+        <input type="text" placeholder="Enter any Number" id="inputBox"><br>
+        <button id="btn" onclick="checkthenumber()">Check</button>
+        <p id="result">Yes are Right/wrong</p>
+        <p id="guesscount">Available Guesses:3</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+<style>
+    body {
+        text-align: center;
+        display: inline-block;
+        margin-left: 500px;
+        margin-top: 200px;
+        background-color:rgb(232, 199, 155);
+        
+    }
+    .set{
+        border: solid rgb(126, 119, 119) 2px;
+        background-color: rgb(224, 215, 215);
+        box-shadow: 10px 10px 10px rgb(137, 178, 192);
+        border-radius:30px;
+        display: inline-block;
+        width: 500;
+        height: 350px;;
+        padding: 20px ;
+        
+        
+    }
+
+    h1 {
+        background-color: rgb(139, 146, 180);
+        border: solid rgb(139, 146, 180) 1px;
+        text-shadow: 2px 2px 2px rgb(196, 93, 127);
+        border-radius: 10px;
+        color: black;
+        display: inline;
+        margin-top: 300px; 
+        padding: 5px;
+    }
+
+    .label {
+        font-weight: bolder;
+        font-size: 20px;
+      
+    }
+
+    #btn {
+        background-color: rgb(172, 161, 153);
+        display: inline-block;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    #inputBox {
+        border: solid black 2px;
+        padding: 5px;
+    }
+    #result{
+        font-size: 20px;
+    }
+    #guesscount{
+        font-size: 30px;
+    }
+</style>
+
+</html>
+
+
+
+
+
+
+
